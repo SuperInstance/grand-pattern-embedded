@@ -1,0 +1,18 @@
+[package]
+name = "grand-pattern-embedded"
+version = "0.1.0"
+edition = "2021"
+description = "Grand Pattern for microcontrollers — no_std, fixed memory, ESP32/Arduino/ARM Cortex-M"
+license = "MIT"
+repository = "https://github.com/SuperInstance/grand-pattern-embedded"
+keywords = ["no_std", "embedded", "esp32", "arduino", "cortex-m"]
+categories = ["embedded", "no-std", "science"]
+
+[features]
+default = []
+esp32 = []
+arduino = []
+
+[dependencies]
+
+[dev-dependencies]
